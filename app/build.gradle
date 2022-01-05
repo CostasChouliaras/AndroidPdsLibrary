@@ -58,6 +58,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
+    implementation 'androidx.compose.material:material-icons-extended:1.1.0-rc01'
 
-    implementation 'com.github.CostasChouliaras:AndroidPdsLibrary:13.0'
+    implementation 'com.github.CostasChouliaras:AndroidPdsLibrary:16.0'
 }
